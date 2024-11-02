@@ -76,7 +76,7 @@ function UserForm() {
       <img src="https://i0.wp.com/opportunitiescorners.com/wp-content/uploads/2024/10/FB_IMG_1729067747981.jpg?resize=1068%2C1068&ssl=1" alt="Header" className="header-image" />
       <h1 className="header-title">Your Peronal Information</h1>
       <h1>Congratulations On Reaching This Page.</h1>
-      <p className='sub-title'>Please submit a your information below and our representative will be in touch right away.</p>
+      <p className='sub-title'>Please submit all your information below and our representative will be in touch right away.</p>
     </header>
 
     {/* Form Container */}
