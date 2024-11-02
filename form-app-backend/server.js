@@ -7,8 +7,8 @@ const app = express();
 const port = process.env.PORT || 5000;
 // app.use(cors(
 //   {
-//       origin = ['https://adpage.vercel.app"],
-//       methods = ['POST', 'GET'],
+//       origin : ["https://advert-frontend.vercel.app"],
+//       methods : ['POST', 'GET'],
 //       credentials: true
 //   }
 // ));
