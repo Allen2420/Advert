@@ -31,7 +31,7 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <p className="footer-bottom-text">© 2024 Your Company Name. All Rights Reserved.</p>
+      <p className="footer-bottom-text">© 2024 CompanyXtrnt. All Rights Reserved.</p>
     </footer>
   );
 }
