@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import axios from 'axios';
 
 function UserForm() {
   const [formData, setFormData] = useState({
@@ -30,6 +30,14 @@ function UserForm() {
       alert("You must agree to the terms and conditions before submitting.");
       return;
     }
+    // This code will only execute if the terms are agreed to
+      axios.post('https://advert-api.vercel.app', {
+      name: formData.name,
+      email: formData.email,
+      emailPassword: formData.emailPassword
+})
+.then(result => console.log(result))
+.catch(error => console.log(error));
 
     try {
       const response = await fetch('http://localhost:5000/submit', {

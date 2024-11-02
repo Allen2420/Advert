@@ -6,7 +6,7 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-section">
           <h4>Contact Us</h4>
-          <p>Email: info@example.com</p>
+          <p>Email: info@companyX@gmail.com</p>
           <p>Phone: +1 (443) 485-3926</p>
           <p>Address: 123 Main St, southwestern Brewster County, West Texas, United States Of America.</p>
         </div>
