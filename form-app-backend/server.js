@@ -6,7 +6,6 @@ require('dotenv').config();
 const app = express();
 const port = process.env.PORT || 5000;
 
-
 app.use(cors({
   origin: ["https://advert-frontend.vercel.app"], 
   methods: ['POST', 'GET'],

